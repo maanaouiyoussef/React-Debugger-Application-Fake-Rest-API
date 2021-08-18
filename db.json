@@ -1,0 +1,60 @@
+{
+  "bugs": [
+    {
+      "id": 1,
+      "problem": "403 status, Access Denied !",
+      "solution": "Allow others to access the resource",
+      "category": "Java",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "problem": "Spring boot Beans Error",
+      "solution": "ADD MYSQL jar file the dependencies ",
+      "category": "Java",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "problem": "servlet.init() error !",
+      "solution": "DB NOT EXISTS IN MYSQL ",
+      "category": "Java",
+      "reminder": true
+    },
+    {
+      "id": 604,
+      "problem": "PORT IS ALREADY IN USE",
+      "solution": "KILL THE PROCESS THAT USE PORT 8080",
+      "category": "Java",
+      "reminder": true
+    },
+    {
+      "id": 141,
+      "problem": "TOMCAT can't start",
+      "solution": "Dupliquated <servlet-context> initialisation or HTTP time ",
+      "category": "Java",
+      "reminder": true
+    },
+    {
+      "id": 974,
+      "problem": "Can't find DAO or Service BEAN",
+      "solution": "@Service annotation or @Repository to you implementations classes",
+      "category": "Java",
+      "reminder": true
+    },
+    {
+      "id": 342,
+      "problem": "Spring boot controller requestMapping  or security configuration don't work ",
+      "solution": "Add scanBasePackages() to @SpringBootApplication",
+      "category": "Java",
+      "reminder": true
+    },
+    {
+      "id": 626,
+      "problem": "Pool Connection error to API",
+      "solution": "Install shadowsockets as an anaconda dependency and limit the items in the api query ",
+      "category": "Python",
+      "reminder": true
+    }
+  ]
+}
