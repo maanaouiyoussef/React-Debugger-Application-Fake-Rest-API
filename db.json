@@ -1,13 +1,6 @@
 {
   "bugs": [
     {
-      "id": 1,
-      "problem": "403 status, Access Denied !",
-      "solution": "Allow others to access the resource",
-      "category": "Java",
-      "reminder": true
-    },
-    {
       "id": 2,
       "problem": "Spring boot Beans Error",
       "solution": "ADD MYSQL jar file the dependencies ",
@@ -50,11 +43,11 @@
       "reminder": true
     },
     {
-      "id": 626,
-      "problem": "Pool Connection error to API",
-      "solution": "Install shadowsockets as an anaconda dependency and limit the items in the api query ",
+      "id": 327,
+      "problem": "python ",
+      "solution": "solution ",
       "category": "Python",
-      "reminder": true
+      "reminder": false
     }
   ]
 }

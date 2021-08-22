@@ -91,15 +91,23 @@ function App() {
     setShow(!show)
   } 
 
+  // Toggle Background 
+  const [back,setBack] = useState(false)
+  
+  function ToggleBackVariable(booling) {
+    setBack(booling)
+  }
+
   return (
-    <div className="container">
-      <Header appTitle='DebuGR' onAdd={showForm} show={show} />
+    <div className="container" style={{backgroundColor: back ? 'black':'white',
+    color: back ? 'white':'black'}}>
+      <Header appTitle='DebuGR' onAdd={showForm} onChangeBgColor={ToggleBackVariable} show={show}  />
 
       {
         show && <AddBug onInsert={addBug} />
       }
       
-      <Bugs bugs={bugs} onDelete={deleteBug} onToggle={toggleReminder} />
+      <Bugs back={back} bugs={bugs} onDelete={deleteBug} onToggle={toggleReminder} />
     </div>
   );
 }

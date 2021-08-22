@@ -27,6 +27,30 @@ body {
   margin-bottom: 20px;
 }
 
+.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  border: 1px steelblue solid; 
+  border-radius: 45px;
+  height: 30px;
+  width: 30px; 
+  cursor: pointer; 
+}
+
+.dark {
+  border: 1px steelblue solid; 
+  border-radius: 45px;
+  height: 30px;
+  width: 30px; 
+  cursor: pointer; 
+  background: black;
+}
+
+
 .btn {
   display: inline-block;
   background: #000;
