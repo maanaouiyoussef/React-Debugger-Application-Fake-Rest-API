@@ -8,7 +8,7 @@ const Bug = ({bug, onDelete,onToggle,back}) => {
         if(back) {
             return {
                 color: 'white',
-                bg: 'black'
+                bg: '#111111'
             }
         } else {
             return {
@@ -26,8 +26,8 @@ const Bug = ({bug, onDelete,onToggle,back}) => {
         <div style={{backgroundColor:bg,color}} className={bug.reminder? 'bug reminder': 'bug'} onDoubleClick={() => onToggle(bug.id)}>
             <h3>{bug.problem}</h3>
             <p className="solution">{bug.solution}</p>
-            <FaTimes className="fatimes" onClick={() => onDelete(bug.id)} />
-            <Badge category={bug.category} />
+            <FaTimes style={{color: back? 'white':'red'}} className="fatimes" onClick={() => onDelete(bug.id)} />
+            <Badge back={back} category={bug.category} />
         </div>
     )
 }

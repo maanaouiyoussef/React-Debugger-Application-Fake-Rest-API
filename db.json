@@ -41,13 +41,6 @@
       "solution": "Add scanBasePackages() to @SpringBootApplication",
       "category": "Java",
       "reminder": true
-    },
-    {
-      "id": 327,
-      "problem": "python ",
-      "solution": "solution ",
-      "category": "Python",
-      "reminder": false
     }
   ]
 }

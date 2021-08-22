@@ -3,7 +3,7 @@ import Button from './Button'
 import Circle from './Circle'
 
 
-const Header = ({appTitle, onAdd,show,onChangeBgColor}) => {
+const Header = ({appTitle, onAdd,show,onChangeBgColor,back}) => {
 
 
     const toggleBtnData = (show) => {

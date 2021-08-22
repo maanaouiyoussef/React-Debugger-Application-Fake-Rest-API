@@ -53,8 +53,6 @@ body {
 
 .btn {
   display: inline-block;
-  background: #000;
-  color: #fff;
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -63,6 +61,16 @@ body {
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+}
+
+.btn-dark {
+  background: black;
+  color: white;
+}
+
+.btn-light {
+  background: white;
+  color: black;
 }
 
 .btn:focus {

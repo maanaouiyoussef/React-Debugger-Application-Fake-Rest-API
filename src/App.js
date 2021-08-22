@@ -101,10 +101,10 @@ function App() {
   return (
     <div className="container" style={{backgroundColor: back ? 'black':'white',
     color: back ? 'white':'black'}}>
-      <Header appTitle='DebuGR' onAdd={showForm} onChangeBgColor={ToggleBackVariable} show={show}  />
+      <Header appTitle='DebuGR' onAdd={showForm} onChangeBgColor={ToggleBackVariable} show={show} />
 
       {
-        show && <AddBug onInsert={addBug} />
+        show && <AddBug onInsert={addBug}  back={back} />
       }
       
       <Bugs back={back} bugs={bugs} onDelete={deleteBug} onToggle={toggleReminder} />

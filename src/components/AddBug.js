@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const AddBug = ({ onInsert }) => {
+const AddBug = ({ onInsert, back}) => {
 
     // Pass to the state objects 
     // The object handles the input values and send it to the inputs again
@@ -53,7 +53,7 @@ const AddBug = ({ onInsert }) => {
                 <input type="checkbox" checked={reminder} onChange={(e) => setReminder(e.target.checked)} />  <span htmlFor="">Solved</span>
             </div>
 
-            <input type="submit" value="Submit" className="btn btn-block" />
+            <input type="submit" value="Submit" className={back ? 'btn btn-light btn-block': 'btn btn-dark btn-block'} />
         </form>
     )
 }
