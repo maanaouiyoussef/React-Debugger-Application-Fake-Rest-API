@@ -41,6 +41,20 @@
       "solution": "Add scanBasePackages() to @SpringBootApplication",
       "category": "Java",
       "reminder": true
+    },
+    {
+      "id": 463,
+      "problem": "APP not accessing the API",
+      "solution": "Delete the package-lock.json file",
+      "category": "JavaScript",
+      "reminder": true
+    }, 
+    {
+      "id": 464,
+      "problem": "JDBC environnement cant execute the DDL query",
+      "solution": "Check app.properties and dont use the name USER for the Entity",
+      "category": "Java",
+      "reminder": true
     }
   ]
 }
